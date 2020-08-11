@@ -8,6 +8,7 @@ export default class TaskBoard extends React.Component {
       <Board
         data={this.props.data}
         components={{Card: MyCard}}
+        editable
       />
     );
   }

@@ -9,26 +9,17 @@ const data = {
       cards: [
         {
           id: 'Card1',
-          name: 'John Smith',
-          dueOn: 'due in a day',
-          subTitle: 'SMS received at 12:13pm today',
-          body: 'Thanks. Please schedule me for an estimate on Monday.',
-          escalationText: 'Escalated to OPS-ESCALATIONS!',
+          dueOn: '2020-08-10T19:20:30Z',
+          name: 'Thanks. Please schedule me for an estimate on Monday.',
           cardColor: '#BD3B36',
-          cardStyle: {borderRadius: 6, boxShadow: '0 0 6px 1px #BD3B36', marginBottom: 15},
-          metadata: {id: 'Card1'}
+          tags: [{title: 'Critical', color: 'white', bgcolor: 'red'}, {title: '2d ETA', color: 'white', bgcolor: '#0079BF'}, {title: 'Critical', color: 'white', bgcolor: 'red'},{title: 'Critical', color: 'white', bgcolor: 'red'},{title: 'Critical', color: 'white', bgcolor: 'red'},{title: 'Critical', color: 'white', bgcolor: 'red'},]
         },
         {
           id: 'Card2',
-          name: 'Card Weathers',
-          dueOn: 'due now',
-          subTitle: 'Email received at 1:14pm',
-          body: 'Is the estimate free, and can someone call me soon?',
-          escalationText: 'Escalated to Admin',
+          dueOn: '2020-08-16T19:20:30Z',
+          name: 'Is the estimate free, and can someone call me soon?',
           cardColor: '#E08521',
-          cardStyle: {borderRadius: 6, boxShadow: '0 0 6px 1px #E08521', marginBottom: 15},
-          metadata: {id: 'Card1'}
-        }
+        }, 
       ]
     },
     {
@@ -39,7 +30,7 @@ const data = {
         {
           id: 'Card3',
           name: 'Michael Caine',
-          dueOn: 'due in a day',
+          dueOn: '2020-08-16T19:20:30Z',
           subTitle: 'Email received at 4:23pm today',
           body: 'You are welcome. Interested in doing business with you again',
           escalationText: 'Escalated to OPS-ESCALATIONS!',
