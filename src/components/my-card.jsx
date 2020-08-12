@@ -1,9 +1,11 @@
   
 import React from 'react';
-import { MovableCardWrapper  } from 'react-trello';
 import styled from 'styled-components';
 import DueDate from './due-date';
 import MyTag from './my-tag';
+import { components  } from 'react-trello';
+
+const { MovableCardWrapper } = components;
 
 const Container = styled.div``;
 

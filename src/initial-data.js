@@ -66,4 +66,12 @@ const data = {
   ]
 }
 
+export const tags = [
+  {title: 'Critical', color: 'white', bgcolor: 'red'},
+  {title: 'Test', color: 'white', bgcolor: 'orange'},
+  {title: 'ADD', color: 'white', bgcolor: 'green'},
+  {title: 'KiteSoft', color: 'white', bgcolor: 'blue'},
+  {title: 'ASVN', color: 'white', bgcolor: 'pink'},
+]
+
 export default data;

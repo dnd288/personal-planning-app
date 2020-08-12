@@ -8854,7 +8854,7 @@ react-scripts@3.4.1:
 
 react-trello@dnd288/react-trello:
   version "2.4.1"
-  resolved "https://codeload.github.com/dnd288/react-trello/tar.gz/d8268cc3608a134208652be218ffea1fbbfc9f5b"
+  resolved "https://codeload.github.com/dnd288/react-trello/tar.gz/046fb7a0b61a121fdf284b8a5f5fefcc70a9777d"
   dependencies:
     autosize "^4.0.2"
     classnames "^2.2.6"
